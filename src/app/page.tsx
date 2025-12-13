@@ -80,7 +80,7 @@ export default function HomePage() {
 
             <div className="text-center">
               <Link
-                href="/store"
+                href="/tractors"
                 className="inline-block bg-blue-900 text-white px-8 py-3 rounded font-medium hover:bg-blue-800 transition-colors"
               >
                 Explore Store
@@ -114,7 +114,7 @@ export default function HomePage() {
                   ))}
                 </ul>
                 <Link
-                  href="/store"
+                  href="/tractors"
                   className="inline-block bg-blue-900 text-white px-8 py-3 rounded font-medium hover:bg-blue-800 transition-colors"
                 >
                   Explore Store
@@ -225,14 +225,6 @@ export default function HomePage() {
                   />
                 </div>
                 <div className="p-6 bg-gray-50">
-                  <div className="w-12 h-12 rounded-full bg-white border-2 border-red-600 flex items-center justify-center mb-4">
-                    <Image
-                      src="/images/icon-irrigation.svg"
-                      alt="Irrigation"
-                      width={24}
-                      height={24}
-                    />
-                  </div>
                   <h4 className="text-xl font-bold text-gray-900 mb-2">
                     Irrigation systems for smallholders and large farms alike
                   </h4>

@@ -95,7 +95,7 @@ export default function Navbar() {
             {/* Desktop CTA Button */}
             <div className="hidden lg:block">
               <Link
-                href="/browse"
+                href="/tractors"
                 className="bg-blue-900 text-white px-6 py-2 rounded text-sm font-medium hover:bg-blue-800 transition-colors"
               >
                 Browse Models
@@ -191,7 +191,7 @@ export default function Navbar() {
                   {/* Mobile CTA Button */}
                   <div className="pt-4 border-t border-gray-200">
                     <Link
-                      href="/browse"
+                      href="/tractors"
                       className="block w-full bg-blue-900 text-white px-6 py-3 rounded text-base font-medium hover:bg-blue-800 transition-colors text-center"
                       onClick={() => setIsMobileMenuOpen(false)}
                     >
