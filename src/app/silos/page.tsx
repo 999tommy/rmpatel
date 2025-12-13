@@ -298,7 +298,7 @@ export default function AgacliSilosPage() {
               {/* Card 3 */}
               <div className="relative h-64 md:h-80 rounded-lg overflow-hidden group cursor-pointer">
                 <Image
-                  src="/contact1.png"
+                  src="/wholesale2.png"
                   alt="Grain cleaners"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"

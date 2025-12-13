@@ -453,27 +453,30 @@ export default function TractorsPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="relative py-24 bg-blue-900">
+      <section className="relative h-80 lg:h-96">
         <Image
-          src="/tractor1.png"
-          alt="Aerial view of farm"
+          src="/home8.png"
+          alt="Tractor at sunset"
           fill
-          className="object-cover opacity-20"
+          className="object-cover"
         />
-        <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Ready to Upgrade Your Farm?
-          </h2>
-          <p className="text-white/90 text-lg mb-8 max-w-2xl mx-auto">
-            Contact us today and get expert guidance on which tractor fits your needs – and help you select exactly the right product for your needs – and help you implement efficiency and return your investment quickly while performance improves.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-blue-900 px-8 py-3.5 rounded font-semibold hover:bg-gray-100 transition-colors">
-              Contact Us at +254 792 61418
-            </button>
-            <button className="border-2 border-white text-white px-8 py-3.5 rounded font-semibold hover:bg-white/10 transition-colors">
-              Request Quotation
-            </button>
+        <div className="absolute inset-0 bg-black/50" />
+        <div className="relative h-full flex items-center justify-center text-center">
+          <div className="max-w-3xl px-4">
+            <h2 className="text-white text-3xl lg:text-4xl font-bold mb-4">
+              Ready to Upgrade Your Farm?
+            </h2>
+            <p className="text-white/90 mb-6">
+              Contact us today and get expert guidance on which tractor fits your needs – and help you select exactly the right product for your needs – and help you implement efficiency and return your investment quickly while performance improves.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <button className="bg-white text-blue-900 px-8 py-3 rounded font-medium hover:bg-gray-100 transition-colors">
+                Contact Us at +254 792 61418
+              </button>
+              <button className="bg-transparent text-white border-2 border-white px-8 py-3 rounded font-medium hover:bg-white hover:text-blue-900 transition-colors">
+                Request Quotation
+              </button>
+            </div>
           </div>
         </div>
       </section>
