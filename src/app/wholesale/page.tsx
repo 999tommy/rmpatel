@@ -106,15 +106,19 @@ export default function WholesalePage() {
         </section>
 
         {/* What We Offer Section */}
-        <section className="relative py-20 lg:py-32">
-          <div className='container mx-auto max-w-6xl'>
-            <h2 className="text-3xl lg:text-4xl font-bold text-white mb-3">
+        <section className="py-10 lg:py-10 px-6 bg-gray-50">
+          <div className="container mx-auto max-w-6xl text-center">
+            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-3">
               What We <span className="text-red-500">Offer</span>
             </h2>
-            <p className="text-white/90 text-base mb-20 max-w-2xl mx-auto">
+            <p className="text-gray-600 text-base mb-20 max-w-2xl mx-auto">
               We provide access to thousands of parts and components, including:
             </p>
           </div>
+        </section>
+
+        {/* OEM Parts Section with Background */}
+        <section className="relative py-20 lg:py-32">
           {/* Background Image */}
           <div className="absolute inset-0">
             <Image
@@ -128,8 +132,6 @@ export default function WholesalePage() {
 
           {/* Content */}
           <div className="relative z-10 container mx-auto px-6 text-center">
-
-            {/* OEM Parts Section */}
             <div className="max-w-2xl mx-auto">
               <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4">
                 OEM and aftermarket tractor spare parts
