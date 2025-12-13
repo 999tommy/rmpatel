@@ -8,34 +8,45 @@ export default function ContactPage() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative h-[500px] md:h-[600px] lg:h-[700px]">
-        <div className="absolute inset-0">
-          <Image
-            src="/contact1.png"
-            alt="Agricultural irrigation field"
-            fill
-            className="object-cover"
-            priority
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/30" />
-        </div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
-          <div className="max-w-2xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              CONTACT <span className="text-red-600">US</span>
-            </h1>
-            <p className="text-white text-base md:text-lg mb-8 leading-relaxed max-w-xl">
-              At RM Patel & Partners Ltd, we are committed to supporting agricultural retailers, workshops, exporters, NGOs, and government agencies across East Africa with the best pricing, fast service, and a comprehensive range of high-quality parts and equipment.
-            </p>
-            <button className="bg-blue-900 text-white px-8 py-3 rounded-md font-semibold hover:bg-blue-800 transition-colors">
-              Browse Models
-            </button>
+      <section className="relative bg-white">
+        <div className="container mx-auto px-6 lg:px-12">
+          <div className="grid lg:grid-cols-2 gap-12 items-center py-16 lg:py-24">
+            {/* Left Content */}
+            <div className="max-w-xl">
+              {/* Title */}
+              <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+                CONTACT <span className="text-red-600">US</span>
+              </h1>
+
+              {/* Description */}
+              <div className="text-gray-600 text-sm lg:text-base leading-relaxed mb-8">
+                <p>
+                  At RM Patel & Partners Ltd, we are committed to supporting agricultural retailers, workshops, exporters, NGOs, and government agencies across East Africa with the best pricing, fast service, and a comprehensive range of high-quality parts and equipment.
+                </p>
+              </div>
+
+              {/* Browse Models Button */}
+              <button className="bg-blue-900 text-white px-8 py-3 rounded-md font-semibold hover:bg-blue-800 transition-colors">
+                Browse Models
+              </button>
+            </div>
+
+            {/* Right Image */}
+            <div className="relative h-[400px] lg:h-[500px] rounded-lg overflow-hidden">
+              <Image
+                src="/contact1.png"
+                alt="Agricultural irrigation field"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
           </div>
         </div>
       </section>
 
       {/* Map Section */}
-      <section className="relative h-[400px] md:h-[500px] lg:h-[600px] pt-16 md:pt-24">
+      <section className="relative h-[400px] md:h-[500px] lg:h-[600px] pt-32 md:pt-40 lg:pt-48">
         <div className="absolute inset-0 bg-gray-200">
           <Image
             src="/contact2.png"

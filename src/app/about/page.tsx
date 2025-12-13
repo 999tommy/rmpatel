@@ -45,12 +45,12 @@ export default function AboutPage() {
                   We understand the critical role that reliable equipment plays in modern agriculture. That's why we've dedicated ourselves to providing only the highest quality parts and implements that keep your operations running smoothly and efficiently.
                 </p>
               </div>
-              <div className="relative">
+              <div className="relative h-80 lg:h-96">
                 <Image
                   src="/about2.png"
                   alt="Our Legacy"
                   fill
-                  className="object-cover rounded-lg"
+                  className="object-contain rounded-lg"
                 />
               </div>
             </div>
