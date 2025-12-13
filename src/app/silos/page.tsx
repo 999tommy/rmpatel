@@ -7,8 +7,11 @@ export default function AgacliSilosPage() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
+         
 
-      <main>
+
+         
+      <main>  
         {/* Hero Section */}
         <section className="max-w-7xl mx-auto px-6 py-16 md:py-24">
           <div className="grid md:grid-cols-2 gap-12 items-center">
