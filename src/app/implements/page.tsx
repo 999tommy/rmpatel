@@ -30,7 +30,7 @@ export default function HomePage() {
               </div>
               <div className="relative h-[400px] lg:h-[500px]">
                 <Image
-                  src="/tractor1.png"
+                  src="/implement1.png"
                   alt="Tractor with red implement"
                   fill
                   className="object-cover rounded-lg"
@@ -84,7 +84,7 @@ export default function HomePage() {
               </div>
               <div className="relative h-[350px] lg:h-[400px]">
                 <Image
-                  src="/tractor2.png"
+                  src="/implement2.png"
                   alt="Disc harrow in action"
                   fill
                   className="object-cover rounded-lg"
@@ -96,7 +96,7 @@ export default function HomePage() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative h-[350px] lg:h-[400px] order-2 lg:order-1">
                 <Image
-                  src="/tatu-mouldboard-plough.jpg"
+                  src="/implement3.png"
                   alt="Mouldboard plough"
                   fill
                   className="object-cover rounded-lg"
@@ -162,7 +162,7 @@ export default function HomePage() {
               </div>
               <div className="relative h-[350px] lg:h-[400px]">
                 <Image
-                  src="/tatu-cultivator-in-field.jpg"
+                  src="/implement4.png"
                   alt="Cultivator"
                   fill
                   className="object-cover rounded-lg"
@@ -174,7 +174,7 @@ export default function HomePage() {
             <div className="grid lg:grid-cols-2 gap-12 items-center mt-16">
               <div className="relative h-[350px] lg:h-[400px] order-2 lg:order-1">
                 <Image
-                  src="/tatu-sugarcane-implement.jpg"
+                  src="/implement5.png"
                   alt="Sugarcane implement"
                   fill
                   className="object-cover rounded-lg"
@@ -260,7 +260,7 @@ export default function HomePage() {
               </div>
               <div className="relative h-[350px] lg:h-[400px]">
                 <Image
-                  src="/terra-boom-sprayer.jpg"
+                  src="/implement4.png"
                   alt="Boom sprayer"
                   fill
                   className="object-cover rounded-lg"
@@ -272,7 +272,7 @@ export default function HomePage() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative h-[350px] lg:h-[400px] order-2 lg:order-1">
                 <Image
-                  src="/terra-tipping-trailer.jpg"
+                  src="/implement5.png"
                   alt="Tipping trailer"
                   fill
                   className="object-cover rounded-lg"
@@ -325,57 +325,42 @@ export default function HomePage() {
             {/* Icon Grid */}
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-12">
               <div className="text-center">
-                <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                  <Image
-                    src="/icon-soil-preparation.png"
-                    alt="Soil preparation"
-                    width={48}
-                    height={48}
-                  />
+                <div className="w-16 h-16 mx-auto mb-4 bg-red-600 bg-opacity-10 rounded-full flex items-center justify-center border border-red-200">
+                  <svg className="w-8 h-8" stroke="white" fill="none" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-16 6h16" />
+                  </svg>
                 </div>
                 <p className="font-semibold text-gray-900">Soil preparation</p>
               </div>
               <div className="text-center">
-                <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                  <Image
-                    src="/icon-fertilizer-spreading.png"
-                    alt="Fertilizer spreading"
-                    width={48}
-                    height={48}
-                  />
+                <div className="w-16 h-16 mx-auto mb-4 bg-red-600 bg-opacity-10 rounded-full flex items-center justify-center border border-red-200">
+                  <svg className="w-8 h-8" stroke="white" fill="none" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 2L2 7l10 5 10-5m0 9l-2-2m0 0l2-2m-2 2l2 2" />
+                  </svg>
                 </div>
                 <p className="font-semibold text-gray-900">Fertilizer spreading</p>
               </div>
               <div className="text-center">
-                <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                  <Image
-                    src="/icon-crop-spraying.png"
-                    alt="Crop spraying"
-                    width={48}
-                    height={48}
-                  />
+                <div className="w-16 h-16 mx-auto mb-4 bg-red-600 bg-opacity-10 rounded-full flex items-center justify-center border border-red-200">
+                  <svg className="w-8 h-8" stroke="white" fill="none" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2m0 0l-2-2m2 2l2-2m-2 2h6a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2h6m-2 8v2m0 0v-2m0 2h4" />
+                  </svg>
                 </div>
                 <p className="font-semibold text-gray-900">Crop spraying</p>
               </div>
               <div className="text-center">
-                <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                  <Image
-                    src="/icon-seed-bed-management.png"
-                    alt="Seed bed management"
-                    width={48}
-                    height={48}
-                  />
+                <div className="w-16 h-16 mx-auto mb-4 bg-red-600 bg-opacity-10 rounded-full flex items-center justify-center border border-red-200">
+                  <svg className="w-8 h-8" stroke="white" fill="none" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                  </svg>
                 </div>
                 <p className="font-semibold text-gray-900">Seed bed management</p>
               </div>
               <div className="text-center">
-                <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                  <Image
-                    src="/icon-harvesting.png"
-                    alt="Harvesting"
-                    width={48}
-                    height={48}
-                  />
+                <div className="w-16 h-16 mx-auto mb-4 bg-red-600 bg-opacity-10 rounded-full flex items-center justify-center border border-red-200">
+                  <svg className="w-8 h-8" stroke="white" fill="none" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
                 </div>
                 <p className="font-semibold text-gray-900">Harvesting</p>
               </div>
@@ -399,20 +384,12 @@ export default function HomePage() {
                 <div className="flex-none w-[280px] snap-start">
                   <div className="relative h-[300px] rounded-lg overflow-hidden mb-4">
                     <Image
-                      src="/implement-rotary-tillers.jpg"
+                      src="/tractor2.png"
                       alt="Rotary tillers"
                       fill
                       className="object-cover"
                     />
-                    <div className="absolute top-4 right-4 w-12 h-12 bg-white rounded-full flex items-center justify-center">
-                      <Image
-                        src="/avatar-placeholder.jpg"
-                        alt="User"
-                        width={40}
-                        height={40}
-                        className="rounded-full"
-                      />
-                    </div>
+                    
                   </div>
                   <div className="flex items-center justify-between">
                     <h4 className="font-bold text-gray-900">Rotary tillers</h4>
@@ -425,7 +402,7 @@ export default function HomePage() {
                 <div className="flex-none w-[280px] snap-start">
                   <div className="relative h-[300px] rounded-lg overflow-hidden mb-4">
                     <Image
-                      src="/implement-subsoilers.jpg"
+                      src="/tractor2.png"
                       alt="Subsoilers"
                       fill
                       className="object-cover"
@@ -442,7 +419,7 @@ export default function HomePage() {
                 <div className="flex-none w-[280px] snap-start">
                   <div className="relative h-[300px] rounded-lg overflow-hidden mb-4">
                     <Image
-                      src="/implement-fertilizer-spreaders.jpg"
+                      src="/tractor2.png"
                       alt="Fertilizer spreaders"
                       fill
                       className="object-cover"
@@ -459,7 +436,7 @@ export default function HomePage() {
                 <div className="flex-none w-[280px] snap-start">
                   <div className="relative h-[300px] rounded-lg overflow-hidden mb-4">
                     <Image
-                      src="/implement-mowers.jpg"
+                      src="/tractor2.png"
                       alt="Mowers"
                       fill
                       className="object-cover"
@@ -496,12 +473,9 @@ export default function HomePage() {
             <div className="grid md:grid-cols-2 gap-x-16 gap-y-8 max-w-4xl mx-auto">
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
-                  <Image
-                    src="/icon-exclusive-access.png"
-                    alt="Exclusive access"
-                    width={40}
-                    height={40}
-                  />
+                  <svg className="w-10 h-10" stroke="#dc2626" fill="none" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                  </svg>
                 </div>
                 <div>
                   <h3 className="font-bold text-gray-900 mb-2">Exclusive access to Tatu Marchesan, Terra Implements, and Agro Master</h3>
@@ -510,12 +484,9 @@ export default function HomePage() {
 
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
-                  <Image
-                    src="/icon-expert-support.png"
-                    alt="Expert support"
-                    width={40}
-                    height={40}
-                  />
+                  <svg className="w-10 h-10" stroke="#dc2626" fill="none" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.366 18.364A9 9 0 005.634 5.634m12.732 12.732A9 9 0 015.634 5.634m12.732 12.732L5.634 5.634" />
+                  </svg>
                 </div>
                 <div>
                   <h3 className="font-bold text-gray-900 mb-2">Expert support for sizing and field matching</h3>
@@ -524,12 +495,10 @@ export default function HomePage() {
 
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
-                  <Image
-                    src="/icon-tailored-implements.png"
-                    alt="Tailored implements"
-                    width={40}
-                    height={40}
-                  />
+                  <svg className="w-10 h-10" stroke="#dc2626" fill="none" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
                 </div>
                 <div>
                   <h3 className="font-bold text-gray-900 mb-2">Implements tailored to East African soil and crop types</h3>
@@ -538,12 +507,9 @@ export default function HomePage() {
 
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
-                  <Image
-                    src="/icon-spare-parts.png"
-                    alt="Spare parts"
-                    width={40}
-                    height={40}
-                  />
+                  <svg className="w-10 h-10" stroke="#dc2626" fill="none" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                  </svg>
                 </div>
                 <div>
                   <h3 className="font-bold text-gray-900 mb-2">Spare parts and after-sales service from stock</h3>
@@ -552,12 +518,9 @@ export default function HomePage() {
 
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
-                  <Image
-                    src="/icon-compatibility.png"
-                    alt="Compatibility"
-                    width={40}
-                    height={40}
-                  />
+                  <svg className="w-10 h-10" stroke="#dc2626" fill="none" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
                 </div>
                 <div>
                   <h3 className="font-bold text-gray-900 mb-2">Full compatibility with major tractor brands</h3>

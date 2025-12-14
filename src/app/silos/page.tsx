@@ -204,7 +204,7 @@ export default function AgacliSilosPage() {
             </p>
 
             {/* Video Banner */}
-            <div className="relative h-64 md:h-96 rounded-lg overflow-hidden mb-12">
+            <section className="relative h-64 md:h-96">
               <Image
                 src="/silo4.png"
                 alt="Custom solutions video"
@@ -221,7 +221,7 @@ export default function AgacliSilosPage() {
                   <p className="text-white text-xl font-semibold tracking-wide">VIDEO</p>
                 </div>
               </div>
-            </div>
+            </section>
 
             {/* Three Cards */}
             <div className="grid md:grid-cols-3 gap-8">
