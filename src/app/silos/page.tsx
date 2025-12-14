@@ -38,79 +38,85 @@ export default function AgacliSilosPage() {
         {/* Hopper Silos Section */}
         <section className="bg-gray-50 py-16 md:py-24">
           <div className="max-w-7xl mx-auto px-6">
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              <div>
-                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-                  Hopper Silos – Efficient Bulk Storage with <span className="text-[#e63946]">Fast Discharge</span>
-                </h2>
-                <p className="text-gray-600 mb-12 leading-relaxed">
-                  Hopper bottom silos are ideal for clean, controlled discharge of dry grains such as maize, sorghum, wheat, barley, and soybeans. Designed for both short and long-term storage, these silos are perfect for commercial farms, grain buyers, and millers.
-                </p>
+            {/* Title and Description */}
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
+                Hopper Silos – Efficient Bulk Storage with <span className="text-[#e63946]">Fast Discharge</span>
+              </h2>
+              <p className="text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                Hopper bottom silos are ideal for clean, controlled discharge of dry grains such as maize, sorghum, wheat, barley, and soybeans. Designed for both short and long-term storage, these silos are perfect for commercial farms, grain buyers, and millers.
+              </p>
+            </div>
 
-                <div className="grid md:grid-cols-2 gap-8">
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-4">Key Features:</h3>
-                    <ul className="space-y-3">
-                      <li className="flex items-start gap-2">
-                        <span className="text-[#e63946] mt-1">—</span>
-                        <span className="text-gray-700 text-sm">Capacities from 50 to 1,000 tons</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-[#e63946] mt-1">—</span>
-                        <span className="text-gray-700 text-sm">45° and 60° hopper angles for smooth grain flow</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-[#e63946] mt-1">—</span>
-                        <span className="text-gray-700 text-sm">Hot-dip galvanized steel for maximum corrosion resistance</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-[#e63946] mt-1">—</span>
-                        <span className="text-gray-700 text-sm">Ventilation systems, ladders, and roof vents included</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-[#e63946] mt-1">—</span>
-                        <span className="text-gray-700 text-sm">Modular design – easy to install and expand</span>
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-4">Benefits:</h3>
-                    <ul className="space-y-3">
-                      <li className="flex items-start gap-2">
-                        <span className="text-[#e63946] mt-1">—</span>
-                        <span className="text-gray-700 text-sm">Reduces grain damage and loss during unloading</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-[#e63946] mt-1">—</span>
-                        <span className="text-gray-700 text-sm">Minimizes cleaning and maintenance</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-[#e63946] mt-1">—</span>
-                        <span className="text-gray-700 text-sm">Compatible with augers, conveyors, and weighing systems</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <span className="text-[#e63946] mt-1">—</span>
-                        <span className="text-gray-700 text-sm">Suitable for loading into trucks, bagging lines, or processing units</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-
-                <button className="mt-8 bg-[#1e3a5f] text-white px-8 py-3 rounded hover:bg-[#152b47] transition-colors">
-                  Explore Our Hopper Silo Range
-                </button>
+            {/* Horizontal Layout: Key Features, Image, Benefits */}
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center justify-between">
+              {/* Key Features */}
+              <div className="flex-1">
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">Key Features:</h3>
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#e63946] mt-1">—</span>
+                    <span className="text-gray-700 text-sm">Capacities from 50 to 1,000 tons</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#e63946] mt-1">—</span>
+                    <span className="text-gray-700 text-sm">45° and 60° hopper angles for smooth grain flow</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#e63946] mt-1">—</span>
+                    <span className="text-gray-700 text-sm">Hot-dip galvanized steel for maximum corrosion resistance</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#e63946] mt-1">—</span>
+                    <span className="text-gray-700 text-sm">Ventilation systems, ladders, and roof vents included</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#e63946] mt-1">—</span>
+                    <span className="text-gray-700 text-sm">Modular design – easy to install and expand</span>
+                  </li>
+                </ul>
               </div>
 
-              <div className="relative">
+              {/* Image */}
+              <div className="relative flex-shrink-0 mx-auto lg:mx-0">
                 <Image
                   src="/silo2.png"
                   alt="Hopper silo"
                   width={500}
                   height={700}
-                  className="w-full h-auto"
+                  className="w-full h-auto max-w-[400px]"
                 />
               </div>
+
+              {/* Benefits */}
+              <div className="flex-1">
+                <h3 className="text-lg font-semibold text-gray-900 mb-4">Benefits:</h3>
+                <ul className="space-y-3">
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#e63946] mt-1">—</span>
+                    <span className="text-gray-700 text-sm">Reduces grain damage and loss during unloading</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#e63946] mt-1">—</span>
+                    <span className="text-gray-700 text-sm">Minimizes cleaning and maintenance</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#e63946] mt-1">—</span>
+                    <span className="text-gray-700 text-sm">Compatible with augers, conveyors, and weighing systems</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-[#e63946] mt-1">—</span>
+                    <span className="text-gray-700 text-sm">Suitable for loading into trucks, bagging lines, or processing units</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Button */}
+            <div className="text-center mt-12">
+              <button className="bg-[#1e3a5f] text-white px-8 py-3 rounded hover:bg-[#152b47] transition-colors">
+                Explore Our Hopper Silo Range
+              </button>
             </div>
           </div>
         </section>
@@ -222,7 +228,7 @@ export default function AgacliSilosPage() {
               <div className="text-center">
                 <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
                   <div className="w-16 h-16 mx-auto mb-4 bg-[#e63946] bg-opacity-10 rounded-full flex items-center justify-center">
-                    <svg className="w-8 h-8 text-[#e63946]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-8 h-8" stroke="white" fill="none" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                     </svg>
                   </div>
@@ -233,7 +239,7 @@ export default function AgacliSilosPage() {
               <div className="text-center">
                 <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
                   <div className="w-16 h-16 mx-auto mb-4 bg-[#e63946] bg-opacity-10 rounded-full flex items-center justify-center">
-                    <svg className="w-8 h-8 text-[#e63946]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-8 h-8" stroke="white" fill="none" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                     </svg>
                   </div>
@@ -244,7 +250,7 @@ export default function AgacliSilosPage() {
               <div className="text-center">
                 <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
                   <div className="w-16 h-16 mx-auto mb-4 bg-[#e63946] bg-opacity-10 rounded-full flex items-center justify-center">
-                    <svg className="w-8 h-8 text-[#e63946]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-8 h-8" stroke="white" fill="none" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
                     </svg>
                   </div>
@@ -326,7 +332,7 @@ export default function AgacliSilosPage() {
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
                   <div className="w-12 h-12 bg-[#e63946] bg-opacity-10 rounded-full flex items-center justify-center">
-                    <svg className="w-6 h-6 text-[#e63946]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6" stroke="white" fill="none" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
                     </svg>
                   </div>
@@ -340,7 +346,7 @@ export default function AgacliSilosPage() {
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
                   <div className="w-12 h-12 bg-[#e63946] bg-opacity-10 rounded-full flex items-center justify-center">
-                    <svg className="w-6 h-6 text-[#e63946]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6" stroke="white" fill="none" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                     </svg>
                   </div>
@@ -354,7 +360,7 @@ export default function AgacliSilosPage() {
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
                   <div className="w-12 h-12 bg-[#e63946] bg-opacity-10 rounded-full flex items-center justify-center">
-                    <svg className="w-6 h-6 text-[#e63946]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6" stroke="white" fill="none" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
@@ -368,7 +374,7 @@ export default function AgacliSilosPage() {
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
                   <div className="w-12 h-12 bg-[#e63946] bg-opacity-10 rounded-full flex items-center justify-center">
-                    <svg className="w-6 h-6 text-[#e63946]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6" stroke="white" fill="none" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
                     </svg>
                   </div>
@@ -382,7 +388,7 @@ export default function AgacliSilosPage() {
               <div className="flex gap-4 md:col-span-2">
                 <div className="flex-shrink-0">
                   <div className="w-12 h-12 bg-[#e63946] bg-opacity-10 rounded-full flex items-center justify-center">
-                    <svg className="w-6 h-6 text-[#e63946]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6" stroke="white" fill="none" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
                     </svg>
                   </div>

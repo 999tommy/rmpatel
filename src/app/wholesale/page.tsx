@@ -48,7 +48,7 @@ export default function WholesalePage() {
               {/* Right Image */}
               <div className="relative h-[400px] lg:h-[500px] rounded-lg overflow-hidden">
                 <Image
-                  src="/wholesale2.png"
+                  src="/wholesale1.png"
                   alt="Irrigation system"
                   fill
                   className="object-cover"
@@ -73,7 +73,7 @@ export default function WholesalePage() {
             {/* Image Card */}
             <div className="relative h-[350px] lg:h-[450px] rounded-lg overflow-hidden">
               <Image
-                src="/wholesale3.png"
+                src="/wholesale2.png"
                 alt="Agricultural equipment dealers"
                 fill
                 className="object-cover"

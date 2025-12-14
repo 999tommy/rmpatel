@@ -231,52 +231,11 @@ export default function TopconSolutionsPage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                   </svg>
                 </div>
-                <h4 className="font-semibold text-gray-900 mb-2">Ongoing software updates</h4>
-                <p className="text-sm text-gray-600">and system optimization</p>
+                <h4 className="font-semibold text-gray-900 mb-2">Grain and cereal growers</h4>
+                <p className="text-sm text-gray-600">seeking precise seeding and input placement</p>
               </div>
             </div>
 
-            {/* Topcon Technology for East African Farming */}
-            <div className="mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-                Topcon Technology for
-              </h2>
-              <h3 className="text-3xl md:text-4xl font-bold text-red-600 mb-8">
-                East African Farming
-              </h3>
-              <p className="text-gray-600 mb-8">Our clients include:</p>
-
-              <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                <Image
-                  src="/wholesale2.png"
-                  alt="Greenhouse workers"
-                  fill
-                  className="object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end justify-center pb-8">
-                  <p className="text-white text-xl md:text-2xl font-semibold text-center px-4">
-                    Grain and cereal growers<br />
-                    seeking precise seeding and<br />
-                    input placement
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-center justify-center gap-4 mt-8">
-                <button className="w-10 h-10 flex items-center justify-center border-2 border-gray-300 rounded-full hover:border-gray-400 transition">
-                  <svg className="w-5 h-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                  </svg>
-                </button>
-                <button className="w-10 h-10 flex items-center justify-center border-2 border-red-600 rounded-full hover:border-red-700 transition">
-                  <svg className="w-5 h-5 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </button>
-              </div>
-            </div>
-
-            {/* Combine Topcon with */}
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-12">
                 Combine <span className="text-red-600">Topcon</span> with:
@@ -426,30 +385,29 @@ export default function TopconSolutionsPage() {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
 
-            {/* CTA Section */}
-            <div className="relative h-[400px] rounded-lg overflow-hidden">
-              <Image
-                src="/home8.png"
-                alt="Tractor harvesting in field"
-                fill
-                className="object-cover"
-              />
-              <div className="absolute inset-0 bg-black/50" />
-              <div className="absolute inset-0 flex items-center justify-center text-center">
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
-                  Ready to Take Control of
-                </h2>
-                <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-                  Your Fields and Feed?
-                </h3>
-                <p className="text-white text-lg mb-8 max-w-2xl">
-                  Join the growing number of farmers across East Africa using Topcon to boost yields, reduce costs, and improve consistency.
-                </p>
-                <button className="bg-blue-900 text-white px-8 py-3 rounded font-medium hover:bg-blue-800 transition">
-                  Speak to Our Precision Ag Specialists
-                </button>
-              </div>
+        {/* CTA Section */}
+        <section className="relative h-80 lg:h-96 w-full">
+          <Image
+            src="/home8.png"
+            alt="Tractor harvesting in field"
+            fill
+            className="object-cover"
+          />
+          <div className="absolute inset-0 bg-black/50" />
+          <div className="relative h-full flex items-center justify-center text-center">
+            <div className="container mx-auto px-4">
+              <h2 className="text-white text-3xl lg:text-4xl font-bold mb-4">
+                Ready to Take Control of Your Fields and Feed?
+              </h2>
+              <p className="text-white/90 mb-6">
+                Join the growing number of farmers across East Africa using Topcon to boost yields, reduce costs, and improve consistency.
+              </p>
+              <button className="bg-blue-600 text-white px-8 py-3 rounded font-medium hover:bg-blue-700 transition-colors">
+                Speak to Our Precision Ag Specialists
+              </button>
             </div>
           </div>
         </section>
