@@ -7,8 +7,8 @@ export default function AgacliSilosPage() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
-        
-      <main>  
+
+      <main>
         {/* Hero Section */}
         <section className="max-w-7xl mx-auto px-6 py-16 md:py-24">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -114,9 +114,9 @@ export default function AgacliSilosPage() {
 
             {/* Button */}
             <div className="text-center mt-12">
-              <button className="bg-[#1e3a5f] text-white px-8 py-3 rounded hover:bg-[#152b47] transition-colors">
+              <Link href="/products/agacli-grain-silos" className="inline-block bg-[#1e3a5f] text-white px-8 py-3 rounded hover:bg-[#152b47] transition-colors">
                 Explore Our Hopper Silo Range
-              </button>
+              </Link>
             </div>
           </div>
         </section>
@@ -185,9 +185,9 @@ export default function AgacliSilosPage() {
                   </ul>
                 </div>
 
-                <button className="mt-8 bg-[#1e3a5f] text-white px-8 py-3 rounded hover:bg-[#152b47] transition-colors">
+                <Link href="/products/agacli-grain-silos" className="inline-block mt-8 bg-[#1e3a5f] text-white px-8 py-3 rounded hover:bg-[#152b47] transition-colors">
                   Explore Our Silo Range
-                </button>
+                </Link>
               </div>
             </div>
           </div>

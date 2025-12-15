@@ -22,19 +22,19 @@ export default function WholesalePage() {
                 {/* Description Paragraphs */}
                 <div className="space-y-4 text-gray-600 text-sm lg:text-base leading-relaxed mb-8">
                   <p>
-                    At RM Patel & Partners Ltd, we are committed to supporting agricultural retailers, 
-                    dealerships, NGOs, and government agencies across East Africa with the best pricing, 
+                    At RM Patel & Partners Ltd, we are committed to supporting agricultural retailers,
+                    dealerships, NGOs, and government agencies across East Africa with the best pricing,
                     fast service, and a comprehensive range of high-quality parts and workmanship.
                   </p>
-                  
+
                   <p>
-                    Whether you're sourcing tractor parts in bulk, stocking up for your dealership, or 
-                    procuring agricultural machinery through a government project—our Wholesale Program 
+                    Whether you're sourcing tractor parts in bulk, stocking up for your dealership, or
+                    procuring agricultural machinery through a government project—our Wholesale Program
                     is designed to provide cost-effective, scalable solutions tailored to your needs.
                   </p>
-                  
+
                   <p>
-                    We partner with world-class irrigation manufacturers to deliver robust systems built 
+                    We partner with world-class irrigation manufacturers to deliver robust systems built
                     for East Africa's soil types, crop diversity, and climate challenges.
                   </p>
                 </div>
@@ -65,7 +65,7 @@ export default function WholesalePage() {
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-3">
               Who Is This Program <span className="text-red-500">For</span>?
             </h2>
-            
+
             <p className="text-gray-600 text-base mb-10">
               Our Wholesale Program is ideal for:
             </p>
@@ -79,7 +79,7 @@ export default function WholesalePage() {
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
-              
+
               {/* Text Overlay */}
               <div className="absolute bottom-0 left-0 right-0 p-6 lg:p-10">
                 <h3 className="text-xl lg:text-2xl font-semibold text-white leading-tight">

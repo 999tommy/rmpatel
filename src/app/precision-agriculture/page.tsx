@@ -29,9 +29,9 @@ export default function TopconSolutionsPage() {
             <p className="text-white text-base md:text-lg max-w-3xl mx-auto mb-8 leading-relaxed">
               A complete GPS guidance and feed management solution for modern farms. Designed to improve efficiency, reduce waste, and maximize yields through precision agriculture technology that integrates seamlessly with your existing equipment.
             </p>
-            <button className="bg-blue-900 text-white px-8 py-3 rounded font-medium hover:bg-blue-800 transition">
+            <Link href="/products/topcon-gps-receivers" className="inline-block bg-blue-900 text-white px-8 py-3 rounded font-medium hover:bg-blue-800 transition">
               Browse Models
-            </button>
+            </Link>
           </div>
         </section>
 
@@ -84,9 +84,9 @@ export default function TopconSolutionsPage() {
                   </li>
                 </ul>
 
-                <button className="mt-8 bg-blue-900 text-white px-6 py-3 rounded font-medium hover:bg-blue-800 transition">
+                <Link href="/products/topcon-gps-receivers" className="inline-block mt-8 bg-blue-900 text-white px-6 py-3 rounded font-medium hover:bg-blue-800 transition">
                   Explore our Topcon Guidance Solutions
-                </button>
+                </Link>
               </div>
 
               <div className="relative h-[400px] md:h-[600px]">
@@ -171,9 +171,9 @@ export default function TopconSolutionsPage() {
                   </li>
                 </ul>
 
-                <button className="mt-8 bg-blue-900 text-white px-6 py-3 rounded font-medium hover:bg-blue-800 transition">
-                  Explore our Topcon Solutions Solutions
-                </button>
+                <Link href="/products/topcon-field-mapping-systems" className="inline-block mt-8 bg-blue-900 text-white px-6 py-3 rounded font-medium hover:bg-blue-800 transition">
+                  Explore our Topcon Solutions
+                </Link>
               </div>
             </div>
           </div>

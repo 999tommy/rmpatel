@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
 
@@ -43,7 +44,7 @@ export default function IrrigationPage() {
             <h2 className="text-3xl lg:text-4xl font-bold text-center mb-4 text-gray-900">
               Drip Irrigation Systems — <span className="text-red-600">Maximum Water Efficiency, Maximum Yield</span>
             </h2>
-            
+
             <div className="mt-12">
               <Image
                 src="/irrigate1.png"
@@ -101,9 +102,9 @@ export default function IrrigationPage() {
             </div>
 
             <div className="mt-8 text-center">
-              <button className="bg-blue-900 text-white px-8 py-3 rounded text-sm font-medium hover:bg-blue-800 transition-colors">
+              <Link href="/products/drip-irrigation-systems" className="inline-block bg-blue-900 text-white px-8 py-3 rounded text-sm font-medium hover:bg-blue-800 transition-colors">
                 Explore our Drip Irrigation Products
-              </button>
+              </Link>
             </div>
           </div>
         </section>
@@ -167,9 +168,9 @@ export default function IrrigationPage() {
                 </ul>
 
                 <div className="mt-8">
-                  <button className="bg-blue-900 text-white px-8 py-3 rounded text-sm font-medium hover:bg-blue-800 transition-colors">
+                  <Link href="/products/sprinkler-systems" className="inline-block bg-blue-900 text-white px-8 py-3 rounded text-sm font-medium hover:bg-blue-800 transition-colors">
                     Explore our Rain Gun products
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -229,9 +230,9 @@ export default function IrrigationPage() {
                 </ul>
 
                 <div className="mt-8">
-                  <button className="bg-blue-900 text-white px-8 py-3 rounded text-sm font-medium hover:bg-blue-800 transition-colors">
+                  <Link href="/products/center-pivot-systems" className="inline-block bg-blue-900 text-white px-8 py-3 rounded text-sm font-medium hover:bg-blue-800 transition-colors">
                     Explore our Pivot Irrigation Products
-                  </button>
+                  </Link>
                 </div>
               </div>
 

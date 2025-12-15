@@ -2,8 +2,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
+import ProductGrid from '@/components/ProductGrid';
 
-export default function HomePage() {
+export default function ImplementsPage() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
@@ -24,9 +25,9 @@ export default function HomePage() {
                 <p className="text-gray-600 text-lg mb-8 leading-relaxed">
                   We proudly represent Tatu Marchesan (Brazil), Terra Implements (India), and Agro Master (Turkey)—trusted global brands known for their quality, innovation, and reliability.
                 </p>
-                <button className="bg-[#1e3a5f] text-white px-8 py-3 rounded hover:bg-[#152d4a] font-semibold">
+                <Link href="#products" className="bg-[#1e3a5f] text-white px-8 py-3 rounded hover:bg-[#152d4a] font-semibold inline-block">
                   Browse Models
-                </button>
+                </Link>
               </div>
               <div className="relative h-[400px] lg:h-[500px]">
                 <Image
@@ -41,7 +42,7 @@ export default function HomePage() {
         </section>
 
         {/* Tatu Marchesan Section */}
-        <section className="py-16 lg:py-24 bg-white">
+        <section id="products" className="py-16 lg:py-24 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
@@ -74,12 +75,12 @@ export default function HomePage() {
                   </li>
                 </ul>
                 <div className="flex flex-wrap gap-4">
-                  <button className="bg-[#1e3a5f] text-white px-6 py-3 rounded hover:bg-[#152d4a] font-semibold">
+                  <Link href="/products/tatu-disc-harrows" className="bg-[#1e3a5f] text-white px-6 py-3 rounded hover:bg-[#152d4a] font-semibold inline-block">
                     Explore TATU Harrows
-                  </button>
-                  <button className="border-2 border-red-600 text-red-600 px-6 py-3 rounded hover:bg-red-50 font-semibold">
+                  </Link>
+                  <Link href="/brochures/tatu-harrow.pdf" className="border-2 border-red-600 text-red-600 px-6 py-3 rounded hover:bg-red-50 font-semibold inline-block">
                     Download Brochure
-                  </button>
+                  </Link>
                 </div>
               </div>
               <div className="relative h-[350px] lg:h-[400px]">
@@ -121,12 +122,12 @@ export default function HomePage() {
                   </li>
                 </ul>
                 <div className="flex flex-wrap gap-4">
-                  <button className="bg-[#1e3a5f] text-white px-6 py-3 rounded hover:bg-[#152d4a] font-semibold">
+                  <Link href="/products/tatu-mouldboard-ploughs" className="bg-[#1e3a5f] text-white px-6 py-3 rounded hover:bg-[#152d4a] font-semibold inline-block">
                     Explore TATU Ploughs
-                  </button>
-                  <button className="border-2 border-red-600 text-red-600 px-6 py-3 rounded hover:bg-red-50 font-semibold">
+                  </Link>
+                  <Link href="/brochures/tatu-plough.pdf" className="border-2 border-red-600 text-red-600 px-6 py-3 rounded hover:bg-red-50 font-semibold inline-block">
                     Download Brochure
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -152,12 +153,12 @@ export default function HomePage() {
                   </li>
                 </ul>
                 <div className="flex flex-wrap gap-4">
-                  <button className="bg-[#1e3a5f] text-white px-6 py-3 rounded hover:bg-[#152d4a] font-semibold">
+                  <Link href="/products/tatu-cultivators" className="bg-[#1e3a5f] text-white px-6 py-3 rounded hover:bg-[#152d4a] font-semibold inline-block">
                     Explore TATU Cultivators
-                  </button>
-                  <button className="border-2 border-red-600 text-red-600 px-6 py-3 rounded hover:bg-red-50 font-semibold">
+                  </Link>
+                  <Link href="/brochures/tatu-cultivator.pdf" className="border-2 border-red-600 text-red-600 px-6 py-3 rounded hover:bg-red-50 font-semibold inline-block">
                     Download Brochure
-                  </button>
+                  </Link>
                 </div>
               </div>
               <div className="relative h-[350px] lg:h-[400px]">
@@ -200,12 +201,12 @@ export default function HomePage() {
                   </li>
                 </ul>
                 <div className="flex flex-wrap gap-4">
-                  <button className="bg-[#1e3a5f] text-white px-6 py-3 rounded hover:bg-[#152d4a] font-semibold">
+                  <Link href="/products/sugarcane-ridgers-furrowers" className="bg-[#1e3a5f] text-white px-6 py-3 rounded hover:bg-[#152d4a] font-semibold inline-block">
                     Explore TATU Sugarcane
-                  </button>
-                  <button className="border-2 border-red-600 text-red-600 px-6 py-3 rounded hover:bg-red-50 font-semibold">
+                  </Link>
+                  <Link href="/brochures/sugarcane.pdf" className="border-2 border-red-600 text-red-600 px-6 py-3 rounded hover:bg-red-50 font-semibold inline-block">
                     Download Brochure
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -250,12 +251,12 @@ export default function HomePage() {
                   </li>
                 </ul>
                 <div className="flex flex-wrap gap-4">
-                  <button className="bg-[#1e3a5f] text-white px-6 py-3 rounded hover:bg-[#152d4a] font-semibold">
+                  <Link href="/products/terra-boom-sprayers" className="bg-[#1e3a5f] text-white px-6 py-3 rounded hover:bg-[#152d4a] font-semibold inline-block">
                     Explore Terra Boom Sprayers
-                  </button>
-                  <button className="border-2 border-red-600 text-red-600 px-6 py-3 rounded hover:bg-red-50 font-semibold">
+                  </Link>
+                  <Link href="/brochures/terra-boom.pdf" className="border-2 border-red-600 text-red-600 px-6 py-3 rounded hover:bg-red-50 font-semibold inline-block">
                     Download Brochure
-                  </button>
+                  </Link>
                 </div>
               </div>
               <div className="relative h-[350px] lg:h-[400px]">
@@ -297,12 +298,12 @@ export default function HomePage() {
                   </li>
                 </ul>
                 <div className="flex flex-wrap gap-4">
-                  <button className="bg-[#1e3a5f] text-white px-6 py-3 rounded hover:bg-[#152d4a] font-semibold">
+                  <Link href="/products/terra-tipping-trailers" className="bg-[#1e3a5f] text-white px-6 py-3 rounded hover:bg-[#152d4a] font-semibold inline-block">
                     Explore Terra Tipping Trailers
-                  </button>
-                  <button className="border-2 border-red-600 text-red-600 px-6 py-3 rounded hover:bg-red-50 font-semibold">
+                  </Link>
+                  <Link href="/brochures/terra-trailer.pdf" className="border-2 border-red-600 text-red-600 px-6 py-3 rounded hover:bg-red-50 font-semibold inline-block">
                     Download Brochure
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -367,98 +368,17 @@ export default function HomePage() {
             </div>
 
             <div className="text-center mb-16">
-              <button className="bg-[#1e3a5f] text-white px-8 py-3 rounded hover:bg-[#152d4a] font-semibold">
+              <Link href="/products" className="bg-[#1e3a5f] text-white px-8 py-3 rounded hover:bg-[#152d4a] font-semibold inline-block">
                 Explore Agro Master Implements
-              </button>
+              </Link>
             </div>
 
-            {/* Popular Implements Carousel */}
+            {/* Popular Implements include: */}
             <div className="mb-8">
               <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-8">
                 <span className="text-red-600">Popular Implements</span> include:
               </h3>
-            </div>
-
-            <div className="relative">
-              <div className="flex overflow-x-auto gap-6 pb-4 snap-x snap-mandatory scrollbar-hide">
-                <div className="flex-none w-[280px] snap-start">
-                  <div className="relative h-[300px] rounded-lg overflow-hidden mb-4">
-                    <Image
-                      src="/tractor2.png"
-                      alt="Rotary tillers"
-                      fill
-                      className="object-cover"
-                    />
-                    
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <h4 className="font-bold text-gray-900">Rotary tillers</h4>
-                    <button className="text-red-600 font-semibold flex items-center gap-1">
-                      Explore →
-                    </button>
-                  </div>
-                </div>
-
-                <div className="flex-none w-[280px] snap-start">
-                  <div className="relative h-[300px] rounded-lg overflow-hidden mb-4">
-                    <Image
-                      src="/tractor2.png"
-                      alt="Subsoilers"
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <h4 className="font-bold text-gray-900">Subsoilers</h4>
-                    <button className="text-red-600 font-semibold flex items-center gap-1">
-                      Explore →
-                    </button>
-                  </div>
-                </div>
-
-                <div className="flex-none w-[280px] snap-start">
-                  <div className="relative h-[300px] rounded-lg overflow-hidden mb-4">
-                    <Image
-                      src="/tractor2.png"
-                      alt="Fertilizer spreaders"
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <h4 className="font-bold text-gray-900">Fertilizer spreaders</h4>
-                    <button className="text-red-600 font-semibold flex items-center gap-1">
-                      Explore →
-                    </button>
-                  </div>
-                </div>
-
-                <div className="flex-none w-[280px] snap-start">
-                  <div className="relative h-[300px] rounded-lg overflow-hidden mb-4">
-                    <Image
-                      src="/tractor2.png"
-                      alt="Mowers"
-                      fill
-                      className="object-cover"
-                    />
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <h4 className="font-bold text-gray-900">Mowers</h4>
-                    <button className="text-red-600 font-semibold flex items-center gap-1">
-                      Explore →
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-              <div className="absolute right-0 top-0 flex gap-2">
-                <button className="w-10 h-10 rounded-full border-2 border-gray-300 flex items-center justify-center hover:bg-gray-50">
-                  ←
-                </button>
-                <button className="w-10 h-10 rounded-full border-2 border-gray-300 flex items-center justify-center hover:bg-gray-50">
-                  →
-                </button>
-              </div>
+              <ProductGrid category="implements" limit={4} />
             </div>
           </div>
         </section>
@@ -547,12 +467,12 @@ export default function HomePage() {
             <p className="text-white text-lg mb-8 max-w-2xl mx-auto">
               Our implement specialists are ready to help you match the right tool to your crop, soil, and tractor. Contact us today or visit our showroom to review our full lineup.
             </p>
-            <button className="bg-white text-[#1e3a5f] px-8 py-3 rounded hover:bg-gray-100 font-semibold">
+            <Link href="/contact" className="bg-white text-[#1e3a5f] px-8 py-3 rounded hover:bg-gray-100 font-semibold inline-block">
               Talk to an Implements Expert
-            </button>
+            </Link>
           </div>
         </section>
-         </main>
+      </main>
       <Footer />
     </div>
   );

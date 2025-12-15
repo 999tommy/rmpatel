@@ -315,7 +315,7 @@ export default function HomePage() {
                 Thank you for choosing us as your agricultural parts supplier. We're here to keep your equipment running your crops growing, and your livelihood intact.
               </p>
               <Link
-                href="/more"
+                href="/tractors"
                 className="inline-block bg-blue-600 text-white px-8 py-3 rounded font-medium hover:bg-blue-700 transition-colors"
               >
                 Explore More
